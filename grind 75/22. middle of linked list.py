@@ -6,13 +6,15 @@
 
 
 """
+linked list
 method 1: simply add all nodes to arr and access middle
 
-method 2: 2 pointer, slow and fast
+method 2: 2 pointer, slow and fast method
 """
 
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        # method 1:
         # arr = [head]
         # count = 0
         # while (head.next!=None):

@@ -2,7 +2,7 @@
 
 use stack to traverse bfs
 
-also could have used recursion or bfs using queue
+also could have used recursion or bfs using queue # todo
 
 """
 

@@ -1,7 +1,10 @@
+# revise
 """ USE PROPERTY OF binary search tree THAT LEFT IS LOWER AND RIGHT IS LARGER, 
-solve usin recursion
+solve using recursion
 
 given p!=q
+
+binary search tree
 """
 
 # Definition for a binary tree node.

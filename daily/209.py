@@ -1,6 +1,7 @@
 """
 Minimum Size Subarray Sum
-sliding window
+sliding window - O(n)
+can also be done using binary search on prefix sum - O(n logn)
 """
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:

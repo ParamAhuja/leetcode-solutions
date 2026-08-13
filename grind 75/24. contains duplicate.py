@@ -1,4 +1,7 @@
- class Solution:
+"""
+hashmap
+"""
+class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hash = {}
         for i in nums:

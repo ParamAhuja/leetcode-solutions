@@ -1,4 +1,5 @@
 """auxillary linked list used
+# todo - without aux
 """
 
 # Definition for singly-linked list.

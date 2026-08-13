@@ -4,10 +4,12 @@
 #         self.val = val
 #         self.next = next
 
-"""can be done iteratively or recursively
+"""can be done iteratively or recursively # todo
 
 iterative method given:
 update next pointer to point backwards
+
+linked list
 """
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:

@@ -1,5 +1,5 @@
 """
-O(n!) backtracking algorithm
+O(n!) backtracking search algorithm
 
 same as concepts/search/search_permutations.py
 """

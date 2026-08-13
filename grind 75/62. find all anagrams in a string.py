@@ -32,7 +32,7 @@ class Solution:
 
 
 """
-BETTER:
+BETTER: used array for hashmap
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         n,m=len(s),len(p)
@@ -59,7 +59,7 @@ class Solution:
 
 
 """
-BEST:
+BEST: eliminate O(n) hashmaps equality check every time to O(1)
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         n, m = len(s), len(p)

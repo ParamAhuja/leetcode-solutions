@@ -1,7 +1,9 @@
-
+# revise
 """
 full adder logic in addDigits
 Ripple adder in addBinary - keep adding a, b, c until any of them is >0
+
+Maybe can be done using bitwise operations # todo 
 """
 
 class Solution:

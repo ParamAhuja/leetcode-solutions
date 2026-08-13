@@ -1,4 +1,5 @@
-""""KADANE'S ALGO - 
+# revise
+""""KADANE'S ALGORITHM - 
 """"
 
 class Solution:

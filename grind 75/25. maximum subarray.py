@@ -1,7 +1,7 @@
 """
 KADANE's ALGORITHM
 
-method 2: dynamic programming
+method 2: dynamic programming # todo
 """
 
 class Solution:

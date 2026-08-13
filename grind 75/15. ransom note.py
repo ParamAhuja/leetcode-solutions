@@ -1,5 +1,6 @@
-
 """ similar to valid anagram
+
+hashmap
 """
 
 class Solution:

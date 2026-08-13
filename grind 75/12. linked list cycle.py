@@ -1,6 +1,6 @@
 """
 slow fast method
-other method is Floyd’s cycle-finding algorithm
+other method is Floyd’s cycle-finding algorithm # todo
 """
 
 # Definition for singly-linked list.

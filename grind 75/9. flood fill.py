@@ -1,7 +1,7 @@
 
 """graph traversal using stack - dfs type
 
-also could use bfs queue or recursion
+also could use bfs queue or recursion # todo
 """
 
 class Solution:

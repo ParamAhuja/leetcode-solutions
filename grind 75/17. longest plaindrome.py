@@ -2,6 +2,8 @@
 making a palindrome using letters - longest plaindrome
 
 evens + maximum 1 odd
+
+hashmap, string
 """
 
 class Solution:
