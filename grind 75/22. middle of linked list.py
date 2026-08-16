@@ -9,7 +9,7 @@
 linked list
 method 1: simply add all nodes to arr and access middle
 
-method 2: 2 pointer, slow and fast method
+optimal method 2: 2 pointer, slow and fast method
 """
 
 class Solution:

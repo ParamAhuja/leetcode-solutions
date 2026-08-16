@@ -59,7 +59,7 @@ class Solution:
 
 
 """
-BEST: eliminate O(n) hashmaps equality check every time to O(1)
+OPTIMAL METHOD: eliminate O(n) hashmaps equality check every time to O(1)
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         n, m = len(s), len(p)

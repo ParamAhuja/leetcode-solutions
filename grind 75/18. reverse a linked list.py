@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.next = next
 
+# revise
+
 """can be done iteratively or recursively # todo
 
 iterative method given:

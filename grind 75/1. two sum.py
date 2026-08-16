@@ -1,4 +1,4 @@
-"""FOR UNSORTED AND SIMPLE SOLUTION: - HASHMAP
+"""FOR UNSORTED AND SIMPLE SOLUTION: - HASHMAP - check on to go if complementary in hashmap exists
 """        
 
 """IF ARRAY IS SORTED: 2 POINTER IS BETTER

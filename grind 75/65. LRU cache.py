@@ -42,7 +42,7 @@ class LRUCache:
 # obj.put(key,value)
 
 """
-PROPER WAY USING doubly linked list
+OPTIMAL METHOD USING doubly linked list
 class Node:
     def __init__(self, key, val):
         self.key = key

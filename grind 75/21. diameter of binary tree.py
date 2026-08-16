@@ -1,4 +1,5 @@
-"""diaeter of binary tree
+# revise
+"""diameter of binary tree
 
 recursive dfs and check diameter at each 
 keep track of global var maxLen at each node
