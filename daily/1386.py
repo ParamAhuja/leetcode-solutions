@@ -1,7 +1,7 @@
 """Cinema Seat Allocation
 hashmap, greedy, bit manipulation
 
-problem is space, we NEED a hashmap but a list/set... gives MLE, hence use bits
+problem is memory, we NEED a hashmap but a list/set... gives MLE, hence use bits
 
 """
 class Solution:
