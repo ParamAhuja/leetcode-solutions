@@ -2,7 +2,7 @@
 # revise - also see concepts/backtracking
 
 """
-backtracking, searching, combination sum, recursion, inclusion/exclusion
+backtracking, searching, combination sum, recursion
 """
 
 class Solution:
