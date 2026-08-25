@@ -45,7 +45,8 @@ print(search_subsets(a))
 
 
 """
-METHOD 2: bit manipulation
+METHOD 2: bit masking
+take a decimal number (mask) from 0 to 2**(n-1) and loop on its binary rep (length n) hence O(n. 2**n)
 
 Time Complexity: O(n * 2n), generating all subsets requires 2n recursive calls, and copying each subset of size up to n takes O(n) time.
 Auxiliary Space: O(n), temporary subset at most n space at a time.
@@ -53,17 +54,16 @@ Auxiliary Space: O(n), temporary subset at most n space at a time.
 
 """
 
-def find_subsets(a):
-    subsets = []
-    n = len(a)
-    for i in range(1<<n): # or range(2**n) to go from 0 to 2**n-1
-        subset = []
-        for j in range(n):
-            if i&(1<<j):
-                subset.append( a[j] )
-        subsets.append(subset)
-    return subsets
-
-a = [1,2]
-print(find_subsets(a))
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        n = len(nums)
+        ans = []
+        for mask in range(2**n): # or 1<<n does the same thing
+            subset = []
+            # apply masking and append
+            for i in range(n):
+                if (mask & (1<<i)):
+                    subset.append(nums[i])
+            ans.append(subset[:])
+        return ans
 
