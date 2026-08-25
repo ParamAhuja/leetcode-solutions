@@ -1,4 +1,12 @@
 """
+Subset: Any selection of elements; order does not matter, and elements do not need to be next to each other.
+
+Subarray: A contiguous (unbroken) part of an array. In [1, 2, 3], [2, 3] is a subarray, but [1, 3] is not.
+
+Subsequence: A sequence that can be derived from the array by deleting some or no elements without changing the order of the remaining elements (same as a subset, but order matters).
+"""
+
+"""
 all possible subsets: 2^n
 
 time comp: O(n.2**n)
