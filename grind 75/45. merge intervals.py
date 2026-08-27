@@ -1,3 +1,7 @@
+"""
+greedy merge intervals
+"""
+
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         # sort by start time
