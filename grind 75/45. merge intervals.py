@@ -1,5 +1,7 @@
 """
 greedy merge intervals
+
+check grind/26 for extension of problem
 """
 
 class Solution:
