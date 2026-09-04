@@ -1,4 +1,4 @@
-"""
+"""Smallest Stable Index II and I are same (I can also take brute force - low constraints)
 prefix sum
 Prefix Max and Suffix Min
 
