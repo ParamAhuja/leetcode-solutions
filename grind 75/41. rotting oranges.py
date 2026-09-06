@@ -2,7 +2,7 @@
 graph BFS
 
 similar to the DP problem "min length to nearest zero"
-# revise pattern
+# revise pattern - multi source BFS
 """
 
 
