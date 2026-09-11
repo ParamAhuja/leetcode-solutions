@@ -9,15 +9,10 @@ class Solution:
         self.ans = 0
 
     def rec_avg(self, root):
-        if root.left!=None:
-            s1, n1 = self.rec_avg(root.left)
-        else:
-            s1, n1= 0, 0
-        
-        if root.right!=None:
-            s2, n2 = self.rec_avg(root.right)
-        else:
-            s2, n2= 0, 0
+        if root==None:
+            return 0, 0
+        s1, n1 = self.rec_avg(root.left)
+        s2, n2 = self.rec_avg(root.right)
         
         s = root.val + s1 + s2
         n = n1+n2+1
@@ -29,3 +24,8 @@ class Solution:
     def averageOfSubtree(self, root: TreeNode) -> int:
         self.rec_avg(root)
         return self.ans
+
+
+"""
+tree dfs postorder
+"""
