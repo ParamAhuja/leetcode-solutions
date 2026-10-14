@@ -1,3 +1,7 @@
+"""
+array, greedy, sorting
+"""
+
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:
         res = list(map(lambda x: x**2, nums))
