@@ -1,3 +1,5 @@
+# do again
+
 class Solution:
     def sumCounts(self, nums: List[int]) -> int:
         # Observation 1: We need to go down from n**2 to anything, by fixing the redundant operations of calculating each subarray from start to end and not using the overlapping section. 
