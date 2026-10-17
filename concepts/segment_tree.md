@@ -1,7 +1,0 @@
- - space comp = 4n, meaning 4n nodes
- - index of nodes and what indeces of string it encompasses
- - not a complete tree tho, top down - from root not leafs
- - traversal 1. (does not lie, overlap, lies in ans), 2. return -inf, take max and return, return val 
- - updation - o(logn) updates
- - build - o(2n-1) for that many nodes
- - query - o(logn)
