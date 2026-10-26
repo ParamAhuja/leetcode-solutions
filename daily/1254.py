@@ -1,5 +1,10 @@
 # do simple dfs - go to each neigbour, update elements to 2 (visited)
 # check if island opens anywhere and return state
+# medium
+# what i learned: 
+# in line 19: closed = (dfs(i, j) and closed)
+# if i swapped order, (closed and dfs(i, j)), it would not work
+# since sometimes, neighbours would not get called if closed is already False
 
 class Solution:
     def closedIsland(self, grid: list[list[int]]) -> int:
